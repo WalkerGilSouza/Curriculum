@@ -27,9 +27,9 @@ const Index = () => {
           </div>
         </div>
         <div className='static'>
-          <img className='absolute w-20 sm:w-36 right-12 bottom-0 sm:bottom-0 sm:left-3/4 bg-indigo-600 rounded-full' src='/react-logo.png' />
-          <img className='absolute w-28 sm:w-48 bottom-0 sm:inset-y-2/4' src='/javaScript-logo.png' />
-          <img className='md:flex' src='/fotoWalker.png' />
+          <img className='md:flex absolute w-20 sm:w-36 right-12 bottom-0 sm:bottom-0 sm:left-3/4 bg-indigo-600 rounded-full' src='react-logo.png' />
+          <img className='md:flex absolute w-28 sm:w-48 bottom-0 sm:inset-y-2/4' src='javaScript-logo.png' />
+          <img className='md:flex' src='fotoWalker.png' />
         </div>
       </div>
       <div className='font-body'><p className='text-2xl sm:text-4xl py-8 text-center'>Minha Formaçao</p></div>

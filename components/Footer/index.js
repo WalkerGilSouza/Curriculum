@@ -10,8 +10,8 @@ const Footer = () => {
         <p className='text-center sm:pl-12'>@ 2020 produzido por Walker Gil de Souza</p>
       </div>
       <div className='grid grid-cols-4 sm:grid-cols-8 md:justify-items-end'>
-        <img className='md:flex md:flex-grow col-end-8' src='/linkedin-official.png' />
-        <img className='md:flex md:flex-grow col-end-9 col-span-1' src='/github-official.png' />
+        <a className='md:flex md:flex-grow col-end-8' href='https://www.linkedin.com/in/walkergil'><img src='/linkedin-official.png' /></a>
+        <a className='md:flex md:flex-grow col-end-9 col-span-1' href='https://github.com/WalkerGilSouza'><img src='/github-official.png' /></a>
       </div>
     </div>
   )
